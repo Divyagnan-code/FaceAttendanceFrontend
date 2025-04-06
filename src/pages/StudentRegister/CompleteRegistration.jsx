@@ -117,7 +117,7 @@ const CompleteRegistration = ({ rollNumber, email, onSubmit }) => {
       } else if (branch === "ECE" && semester === "6") {
         sections = [
           {
-            category: "main section (select this)",
+            category: "Main Section (select this)",
             sections: ["EC3"],
             type: "main"
           },
