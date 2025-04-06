@@ -6,6 +6,7 @@ import { useAuth } from "../context/AuthContext";
 import { jwtDecode } from "jwt-decode";
 
 const BASE_URL = import.meta.env.VITE_BACKEND_URL;
+
 console.log("BASE_URL", BASE_URL); // Log the BASE_URL to check if it's correct
 const Login = () => {
   const [username, setUsername] = useState("");
