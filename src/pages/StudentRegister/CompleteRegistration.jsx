@@ -118,7 +118,7 @@ const CompleteRegistration = ({ rollNumber, email, onSubmit }) => {
         sections = [
           {
             category: "Main Sections (Choose One)",
-            sections: ["ECE31", "ECE32"],
+            sections: ["EC31", "EC32"],
             type: "main"
           },
           {
@@ -133,7 +133,7 @@ const CompleteRegistration = ({ rollNumber, email, onSubmit }) => {
           },
           {
             category: "Elective Sections (Choose One)",
-            sections: ["EC300", "EC481"],
+            sections: ["EC300", "None"],
             type: "elective"
           }
         ];

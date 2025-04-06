@@ -14,7 +14,7 @@ const FacultyAttendanceReports = () => {
       apiEndpoints={facultyApiEndpoints}
       pageTitle="Faculty - Attendance Reports"
       role="faculty"
-    />
+    />  
   );
 };
 
