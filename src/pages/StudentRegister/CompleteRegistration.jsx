@@ -117,9 +117,14 @@ const CompleteRegistration = ({ rollNumber, email, onSubmit }) => {
       } else if (branch === "ECE" && semester === "6") {
         sections = [
           {
-            category: "Main Sections (Choose One)",
-            sections: ["EC31", "EC32"],
+            category: "main section (select this)",
+            sections: ["EC3"],
             type: "main"
+          },
+          {
+            category: "Lab Sections (Choose One)",
+            sections: ["EC31", "EC32"],
+            type: "lab"
           },
           {
             category: "Other Sections (Choose One)",
